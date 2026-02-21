@@ -1,5 +1,7 @@
 export const commonTypeScriptRules = Object.freeze({
     curly: [2, "multi-line"],
+    "n/no-missing-import": 0,
+    "n/no-unsupported-features/es-syntax": 0,
     "@typescript-eslint/prefer-for-of": 0,
     "@typescript-eslint/member-ordering": 0,
     "@typescript-eslint/explicit-function-return-type": 0,
