@@ -6,6 +6,11 @@ export const commonTypeScriptRules = Object.freeze({
     "@typescript-eslint/member-ordering": 0,
     "@typescript-eslint/explicit-function-return-type": 0,
     "@typescript-eslint/no-unnecessary-condition": 2,
+    "dot-notation": 0,
+    "@typescript-eslint/dot-notation": [
+        2,
+        { allowIndexSignaturePropertyAccess: true },
+    ],
     "@typescript-eslint/no-use-before-define": [
         2,
         {
@@ -18,6 +23,12 @@ export const commonTypeScriptRules = Object.freeze({
     "@typescript-eslint/prefer-string-starts-ends-with": 2,
     "@typescript-eslint/prefer-readonly": 2,
     "@typescript-eslint/prefer-includes": 2,
-    "@typescript-eslint/switch-exhaustiveness-check": 2,
+    "@typescript-eslint/switch-exhaustiveness-check": [
+        2,
+        {
+            allowDefaultCaseForExhaustiveSwitch: true,
+            considerDefaultExhaustiveForUnions: true,
+        },
+    ],
     "@typescript-eslint/prefer-nullish-coalescing": 2,
 });
