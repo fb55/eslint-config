@@ -1,0 +1,45 @@
+{
+  "name": "@feedic/eslint-config",
+  "version": "0.1.0",
+  "description": "Shared ESLint baseline for Feedic libraries",
+  "license": "MIT",
+  "author": "Felix Boehm <me@feedic.com>",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "feedic"
+  ],
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": "./flat.js",
+    "./typescript": "./typescript.js"
+  },
+  "files": [
+    "flat.js",
+    "rules.js",
+    "typescript.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "peerDependencies": {
+    "eslint": "^10.0.0",
+    "typescript-eslint": "^8.56.0"
+  },
+  "peerDependenciesMeta": {
+    "typescript-eslint": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint-plugin-package-json": "^0.89.0",
+    "globals": "^17.3.0"
+  }
+}
