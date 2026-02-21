@@ -1,6 +1,6 @@
 # @feedic/eslint-config
 
-Shared ESLint flat-config baseline for Feedic libraries.
+Shared ESLint flat-config baseline for my libraries.
 
 ## Install
 
