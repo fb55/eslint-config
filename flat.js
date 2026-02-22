@@ -57,6 +57,11 @@ const jsdocExportIgnores = [
     "**/{__fixtures__,__tests__,fixtures,test,tests,website}/**",
 ];
 
+const jsdocTestFiles = [
+    "**/*.{test,spec}.{c,m,}{j,t}s",
+    "**/{__fixtures__,__tests__,fixtures,test,tests,website}/**/*.{c,m,}{j,t}s",
+];
+
 const jsdocRuleOverrides = {
     "jsdoc/require-param-description": "off",
     "jsdoc/require-jsdoc": "off",
@@ -111,6 +116,12 @@ export default [
             "jsdoc/require-jsdoc": requireJsdocForFileExports,
             "jsdoc/require-param-description":
                 requireParamDescriptionForFileExports,
+        },
+    },
+    {
+        files: jsdocTestFiles,
+        rules: {
+            "jsdoc/require-jsdoc": "off",
         },
     },
     packageJson.configs.recommended,
