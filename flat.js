@@ -1,5 +1,6 @@
 import js from "@eslint/js";
 import globals from "globals";
+import eslintPluginJsdoc from "eslint-plugin-jsdoc";
 import eslintPluginN from "eslint-plugin-n";
 import packageJson from "eslint-plugin-package-json";
 import eslintPluginUnicorn from "eslint-plugin-unicorn";
