@@ -10,7 +10,11 @@ export const baseRules = Object.freeze({
     "prefer-template": 2,
     "one-var": [2, "never"],
     "prefer-destructuring": [2, { object: true }],
-    "capitalized-comments": 2,
+    "capitalized-comments": [
+        2,
+        "always",
+        { ignorePattern: "^\\s*biome-ignore\\b" },
+    ],
     "multiline-comment-style": [2, "starred-block"],
     "spaced-comment": 2,
     yoda: [2, "never"],
