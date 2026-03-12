@@ -4,6 +4,10 @@
   "description": "Shared ESLint baseline for Feedic libraries",
   "license": "MIT",
   "author": "Felix Boehm <me@feedic.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fb55/eslint-config.git"
+  },
   "keywords": [
     "eslint",
     "eslintconfig",
