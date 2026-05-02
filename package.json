@@ -1,7 +1,7 @@
 {
   "name": "@feedic/eslint-config",
   "version": "0.4.0",
-  "description": "Shared ESLint baseline for Feedic libraries",
+  "description": "Shared ESLint config for my libraries",
   "license": "MIT",
   "author": "Felix Boehm <me@feedic.com>",
   "repository": {
