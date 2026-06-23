@@ -1,49 +1,49 @@
 {
-  "name": "@feedic/eslint-config",
-  "version": "0.4.1",
-  "description": "Shared ESLint config for my libraries",
-  "license": "MIT",
-  "author": "Felix Boehm <me@feedic.com>",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/fb55/eslint-config.git"
-  },
-  "keywords": [
-    "eslint",
-    "eslintconfig",
-    "feedic"
-  ],
-  "type": "module",
-  "sideEffects": false,
-  "exports": {
-    ".": "./flat.js",
-    "./typescript": "./typescript.js"
-  },
-  "files": [
-    "flat.js",
-    "rules.js",
-    "typescript.js",
-    "README.md",
-    "LICENSE"
-  ],
-  "scripts": {
-    "test": "echo TODO"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "engines": {
-    "node": ">=20.19.0"
-  },
-  "peerDependencies": {
-    "eslint": "^10.3.0"
-  },
-  "dependencies": {
-    "@eslint/js": "^10.0.1",
-    "eslint-plugin-jsdoc": "^63.0.7",
-    "eslint-plugin-n": "^17.24.0",
-    "eslint-plugin-package-json": "^0.91.2",
-    "eslint-plugin-unicorn": "^68.0.0",
-    "globals": "^17.7.0"
-  }
+    "name": "@feedic/eslint-config",
+    "version": "0.4.1",
+    "description": "Shared ESLint config for my libraries",
+    "license": "MIT",
+    "author": "Felix Boehm <me@feedic.com>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fb55/eslint-config.git"
+    },
+    "keywords": [
+        "eslint",
+        "eslintconfig",
+        "feedic"
+    ],
+    "type": "module",
+    "sideEffects": false,
+    "exports": {
+        ".": "./flat.js",
+        "./typescript": "./typescript.js"
+    },
+    "files": [
+        "flat.js",
+        "rules.js",
+        "typescript.js",
+        "README.md",
+        "LICENSE"
+    ],
+    "scripts": {
+        "test": "echo TODO"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "engines": {
+        "node": ">=20.19.0"
+    },
+    "peerDependencies": {
+        "eslint": "^10.3.0"
+    },
+    "dependencies": {
+        "@eslint/js": "^10.0.1",
+        "eslint-plugin-jsdoc": "^63.0.7",
+        "eslint-plugin-n": "^18.1.0",
+        "eslint-plugin-package-json": "^0.91.2",
+        "eslint-plugin-unicorn": "^68.0.0",
+        "globals": "^17.7.0"
+    }
 }
