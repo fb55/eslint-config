@@ -43,7 +43,7 @@
         "eslint-plugin-jsdoc": "^63.0.10",
         "eslint-plugin-n": "^18.2.1",
         "eslint-plugin-package-json": "^1.5.0",
-        "eslint-plugin-unicorn": "^68.0.0",
+        "eslint-plugin-unicorn": "^70.0.0",
         "globals": "^17.7.0"
     }
 }
