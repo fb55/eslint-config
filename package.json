@@ -44,6 +44,6 @@
         "eslint-plugin-n": "^18.2.2",
         "eslint-plugin-package-json": "^1.6.0",
         "eslint-plugin-unicorn": "^68.0.0",
-        "globals": "^17.7.0"
+        "globals": "^17.8.0"
     }
 }
